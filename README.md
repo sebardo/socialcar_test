@@ -8,10 +8,11 @@ Si alguno de estos valores no esta lanza una excepción: PHP Fatal error:  Uncau
 El programa tiene un pequeño patrón de diseño tipo factory con el que solo definiendo el nuevo provider en  "/config/parameters.yml" ya puede ser utilizado 
 
 Ej:
-providers:
-    google:
-        host: smtp.google.com
-        user: user@google.com
-        password: XXXXXX
+
+    providers:
+        google:
+            host: smtp.google.com
+            user: user@google.com
+            password: XXXXXX
 
 La función init() del Factory es quien se encarga de configurar el proveedor y sendTo() de hacer el envio
