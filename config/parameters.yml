@@ -1,0 +1,14 @@
+sleep: 0
+providers:
+    google:
+        host: smtp.host1.com
+        user: user@host1.com
+        password: XXXXXX
+    yahoo:        
+        host: smtp.host2.com
+        user: user@host2.com
+        password: XXXXXX
+    outlook:
+        host: smtp.host3.com
+        user: user@host3.com
+        password: XXXXXX
